@@ -1,0 +1,26 @@
+.formgroup{
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.formgroup label{
+    margin-bottom: 5px;
+}
+
+.formgroup input, .formgroup textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+
+.formgroup input:focus,
+.formgroup textarea:focus{
+    outline: none;
+    border-color:rgb(45, 45, 173);
+}
+
